@@ -3,7 +3,8 @@
         "browser": true,
         "commonjs": true,
         "es6": true,
-        "node": true
+        "node": true,
+        "jest": true
     },
     "extends": [
         "eslint:recommended",
@@ -38,8 +39,6 @@
             "always"
         ],
         "no-unused-vars": "warn",
-        "no-console": "off",
-        "react/jsx-uses-react": "error",
-        "react/jsx-uses-vars": "error"        
+        "no-console": "off"
     }
 }
